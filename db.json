@@ -1,9 +1,40 @@
 {
-  "users": [   
+  "users": [
+    {
+      "id": "u-001",
+      "email": "qwer0001@mail.com",
+      "password": "qwer0001",
+      "createdAt": "2026-01-05T13:30:00.000Z",
+      "client": {
+        "name": "Brian"
+      },
+      "worker": {
+        "name": "Brian-PRO",
+        "isVerify" :true,
+        "profilePictureUrl": "https://picsum.photos/200",
+        "location": "台北",
+        "summary": "您好，我是Brian！",
+        "serviceDescription": "◆服務特色...",
+        "skills": ["婚紗攝影", "圖像剪輯", "PhotoShop"],
+        "serviceRate": 4.9,
+        "serviceCases": 120,
+        "portfolio": [
+          { "id": "p-1", "fileUrl": "https://..." }
+        ]
+      }
+    } ,
+    {
+      "email": "test@123",
+      "password": "$2a$10$anM16ch4meWdptJxMTS6HOzMrc.Sw4RCk8avBqYhu.afKMpVRCy7e",
+      "client": {
+        "name": "test"
+      },
+      "id": 6
+    }
   ],
-  "personalInfo":[],
-  "rate":[],
+  "personalInfo": [],
+  "rate": [],
   "tasks": [],
-  "services":[],
-  "schedules":[]
+  "services": [],
+  "schedules": []
 }
