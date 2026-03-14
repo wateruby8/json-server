@@ -1,6 +1,14 @@
 {
   "users": [
     {
+      "email": "test@123",
+      "password": "$2a$10$anM16ch4meWdptJxMTS6HOzMrc.Sw4RCk8avBqYhu.afKMpVRCy7e",
+      "client": {
+        "name": "test"
+      },
+      "id": "test01"
+    },
+    {
       "id": "u-001",
       "email": "qwer0001@mail.com",
       "password": "qwer0001",
@@ -12,7 +20,7 @@
         "name": "Brian-PRO",
         "isVerify" :true,
         "profilePictureUrl": "https://picsum.photos/200",
-        "location": "台北",
+        "location": "台北市",
         "summary": "您好，我是Brian！",
         "serviceDescription": "◆服務特色...",
         "skills": ["婚紗攝影", "圖像剪輯", "PhotoShop"],
@@ -22,19 +30,305 @@
           { "id": "p-1", "fileUrl": "https://..." }
         ]
       }
-    } ,
+    },
     {
-      "email": "test@123",
-      "password": "$2a$10$anM16ch4meWdptJxMTS6HOzMrc.Sw4RCk8avBqYhu.afKMpVRCy7e",
+      "id": "u-002",
+      "email": "qwer0002@mail.com",
+      "password": "qwer0002",
+      "createdAt": "2026-01-05T13:30:00.000Z",
       "client": {
-        "name": "test"
+        "name": "蘇酥"
       },
-      "id": 6
+      "worker": {
+        "name": "酥脆攝影剪輯",
+        "isVerify" :true,
+        "profilePictureUrl": "https://picsum.photos/200",
+        "location": "台北市",
+        "summary": "我擅長用運鏡說故事！",
+        "serviceDescription": "◆服務特色...",
+        "skills": ["婚紗攝影", "圖像剪輯", "PhotoShop"],
+        "serviceRate": 4.9,
+        "serviceCases": 15,
+        "portfolio": [
+          {  }
+        ]
+      }
+    },
+    {
+      "id": "u-003",
+      "email": "qwer0003@mail.com",
+      "password": "qwer0003",
+      "createdAt": "2026-01-05T13:30:00.000Z",
+      "client": {
+        "name": "謝米"
+      },
+      "worker": {
+        "name": "社群文案企劃師-謝仔",
+        "isVerify" :true,
+        "profilePictureUrl": "https://picsum.photos/200",
+        "location": "台北市",
+        "summary": "擅長撰寫開箱、旅遊、時事文案。",
+        "serviceDescription": "◆服務特色...",
+        "skills": ["活動企劃"],
+        "serviceRate": 4.9,
+        "serviceCases": 51,
+        "portfolio": [
+          {  }
+        ]
+      }
+    },
+    {
+      "id": "u-004",
+      "email": "qwer0004@mail.com",
+      "password": "qwer0004",
+      "createdAt": "2026-01-05T13:30:00.000Z",
+      "client": {
+        "name": "阿土"
+      },
+      "worker": {
+        "name": "阿土企業社",
+        "isVerify" :true,
+        "profilePictureUrl": "https://picsum.photos/200",
+        "location": "台北市",
+        "summary": "修水龍頭、水管、面盆、馬達、油漆、補土",
+        "serviceDescription": "◆服務特色...",
+        "skills": ["家居修繕"],
+        "serviceRate": 4.9,
+        "serviceCases": 26,
+        "portfolio": [
+          {  }
+        ]
+      }
+    },
+    {
+      "id": "u-005",
+      "email": "qwer0005@mail.com",
+      "password": "qwer0005",
+      "createdAt": "2026-01-05T13:30:00.000Z",
+      "client": {
+        "name": "托米"
+      },
+      "worker": {
+        "name": "跑腿超人",
+        "isVerify" :true,
+        "profilePictureUrl": "https://picsum.photos/200",
+        "location": "新北市",
+        "summary": "新北蘆洲三重一把罩！",
+        "serviceDescription": "◆服務特色...",
+        "skills": ["家政"],
+        "serviceRate": 4.9,
+        "serviceCases": 199,
+        "portfolio": [
+          {  }
+        ]
+      }
+    },
+    {
+      "id": "u-006",
+      "email": "qwer0006@mail.com",
+      "password": "qwer0006",
+      "createdAt": "2026-01-05T13:30:00.000Z",
+      "client": {
+        "name": "林友善"
+      },
+      "worker": {
+        "name": "家庭教師",
+        "isVerify" :true,
+        "profilePictureUrl": "https://picsum.photos/200",
+        "location": "新北市",
+        "summary": "曾培育黑手黨首領，能讓學生抱著必死的決心讀書。",
+        "serviceDescription": "◆服務特色...",
+        "skills": ["家教服務"],
+        "serviceRate": 4.6,
+        "serviceCases": 120,
+        "portfolio": [
+          {  }
+        ]
+      }
+    }
+
+  ],
+  "tasks": [
+    {
+      "id": "ta-001",
+      "userId": "u-001",
+      "creatAt": "2026-01-11T08:30:00Z",
+      "serviceTime": {
+        "acceptAnytime": false,
+        "times": [
+          {
+            "startTime": "2026-01-11T08:30:00Z",
+            "endTime": "2026-01-11T20:30:00Z"
+          },
+          { 
+            "startTime": "2026-01-17T09:30:00Z",
+            "endTime": "2026-01-18T18:30:00Z"
+          }
+        ]
+      },
+      "category": "cat-02",
+      "subCategory": "scat-02",
+      "serviceTitle": "老屋翻新",
+      "servicePrice": {
+        "currency": "TWD",
+        "minPrice": 500,
+        "maxPrice": 9999
+      },
+      "serviceLocations": ["台北市"],
+      "serviceKeywords": ["老屋翻新", "裝修", "台北"],
+      "serviceTags": ["sosTime","shortTime","longTime"],
+      "serviceDetail": "需要專業到府居家設計裝潢，包含客廳、廚房、浴室與臥室，依需求客製。",
+      "demoLink": "https://github.com/",
+      "demoImgs": ["https://github.com/p1.jpg", "https://github.com/p2.jpg"]
+    },
+    {
+      "id": "ta-002",
+      "userId": "u-002",
+      "creatAt": "2026-02-11T08:30:00Z",
+      "serviceTime": {
+        "acceptAnytime": false,
+        "times": [
+          {
+            "startTime": "2026-04-11T08:30:00Z",
+            "endTime": "2026-04-11T20:30:00Z"
+          },
+          { 
+            "startTime": "2026-04-17T09:30:00Z",
+            "endTime": "2026-04-18T18:30:00Z"
+          }
+        ]
+      },
+      "category": "cat-02",
+      "subCategory": "scat-02",
+      "serviceTitle": "網頁切版三頁",
+      "servicePrice": {
+        "currency": "TWD",
+        "minPrice": 500,
+        "maxPrice": 9999
+      },
+      "serviceLocations": ["遠端","台北市"],
+      "serviceKeywords": ["網頁設計"],
+      "serviceTags": ["sosTime"],
+      "serviceDetail": "要用 Bootstrap，要交作業",
+      "demoLink": "https://github.com/",
+      "demoImgs": ["https://github.com/p1.jpg", "https://github.com/p2.jpg"]
+    },
+    {
+      "id": "ta-003",
+      "userId": "u-003",
+      "creatAt": "2026-02-11T08:30:00Z",
+      "serviceTime": {
+        "acceptAnytime": false,
+        "times": [
+          {
+            "startTime": "2026-04-11T08:30:00Z",
+            "endTime": "2026-04-11T20:30:00Z"
+          }
+        ]
+      },
+      "category": "cat-02",
+      "subCategory": "scat-02",
+      "serviceTitle": "前端知識小考",
+      "servicePrice": {
+        "currency": "TWD",
+        "minPrice": 500,
+        "maxPrice": 9999
+      },
+      "serviceLocations": ["遠端"],
+      "serviceKeywords": ["網頁設計"],
+      "serviceTags": ["sosTime"],
+      "serviceDetail": "要用 Bootstrap，要交作業",
+      "demoLink": "https://github.com/",
+      "demoImgs": ["https://github.com/p1.jpg", "https://github.com/p2.jpg"]
+    },
+    {
+      "id": "ta-004",
+      "userId": "u-004",
+      "creatAt": "2026-02-11T08:30:00Z",
+      "serviceTime": {
+        "acceptAnytime": false,
+        "times": [
+          {
+            "startTime": "2026-04-11T08:30:00Z",
+            "endTime": "2026-04-11T20:30:00Z"
+          }
+        ]
+      },
+      "category": "cat-02",
+      "subCategory": "scat-02",
+      "serviceTitle": "文件遞送 信義到淡水",
+      "servicePrice": {
+        "currency": "TWD",
+        "minPrice": 500,
+        "maxPrice": 600
+      },
+      "serviceLocations": ["台北市"],
+      "serviceKeywords": ["快遞"],
+      "serviceTags": ["sosTime"],
+      "serviceDetail": "A4文件一包",
+      "demoLink": "https://github.com/",
+      "demoImgs": ["https://github.com/p1.jpg", "https://github.com/p2.jpg"]
+    },
+    {
+      "id": "ta-005",
+      "userId": "u-005",
+      "creatAt": "2026-02-11T08:30:00Z",
+      "serviceTime": {
+        "acceptAnytime": false,
+        "times": [
+          {
+            "startTime": "2026-04-11T08:30:00Z",
+            "endTime": "2026-04-11T20:30:00Z"
+          }
+        ]
+      },
+      "category": "cat-02",
+      "subCategory": "scat-02",
+      "serviceTitle": "公寓清掃",
+      "servicePrice": {
+        "currency": "TWD",
+        "minPrice": 1200,
+        "maxPrice": 2000
+      },
+      "serviceLocations": ["台北市"],
+      "serviceKeywords": ["家政"],
+      "serviceTags": ["shortTime"],
+      "serviceDetail": "公寓約20坪，包打掃、垃圾處理",
+      "demoLink": "https://github.com/",
+      "demoImgs": ["https://github.com/p1.jpg", "https://github.com/p2.jpg"]
+    },
+    {
+      "id": "ta-006",
+      "userId": "u-003",
+      "creatAt": "2026-02-11T08:30:00Z",
+      "serviceTime": {
+        "acceptAnytime": false,
+        "times": [
+          {
+            "startTime": "2026-04-15T08:30:00Z",
+            "endTime": "2026-04-16T20:30:00Z"
+          }
+        ]
+      },
+      "category": "cat-02",
+      "subCategory": "scat-02",
+      "serviceTitle": "雞排店工讀",
+      "servicePrice": {
+        "currency": "TWD",
+        "minPrice": 1200,
+        "maxPrice": 2000
+      },
+      "serviceLocations": ["台北市"],
+      "serviceKeywords": ["飲食"],
+      "serviceTags": ["shortTime"],
+      "serviceDetail": "工時8小時，準備食材",
+      "demoLink": "https://github.com/",
+      "demoImgs": ["https://github.com/p1.jpg", "https://github.com/p2.jpg"]
     }
   ],
-  "personalInfo": [],
-  "rate": [],
-  "tasks": [],
   "services": [],
-  "schedules": []
+  "reviews": [],
+  "schedules": [],
+  "categories":[],
+  "subCategories":[]
 }
