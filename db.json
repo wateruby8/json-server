@@ -18,7 +18,7 @@
       },
       "worker": {
         "name": "Brian-PRO",
-        "isVerify" :true,
+        "isVerify": true,
         "profilePictureUrl": "https://picsum.photos/200",
         "location": "台北市",
         "summary": "您好，我是Brian！",
@@ -27,7 +27,10 @@
         "serviceRate": 4.9,
         "serviceCases": 120,
         "portfolio": [
-          { "id": "p-1", "fileUrl": "https://..." }
+          {
+            "id": "p-1",
+            "fileUrl": "https://..."
+          }
         ]
       }
     },
@@ -41,7 +44,7 @@
       },
       "worker": {
         "name": "酥脆攝影剪輯",
-        "isVerify" :true,
+        "isVerify": true,
         "profilePictureUrl": "https://picsum.photos/200",
         "location": "台北市",
         "summary": "我擅長用運鏡說故事！",
@@ -49,9 +52,7 @@
         "skills": ["婚紗攝影", "圖像剪輯", "PhotoShop"],
         "serviceRate": 4.9,
         "serviceCases": 15,
-        "portfolio": [
-          {  }
-        ]
+        "portfolio": [{}]
       }
     },
     {
@@ -64,7 +65,7 @@
       },
       "worker": {
         "name": "社群文案企劃師-謝仔",
-        "isVerify" :true,
+        "isVerify": true,
         "profilePictureUrl": "https://picsum.photos/200",
         "location": "台北市",
         "summary": "擅長撰寫開箱、旅遊、時事文案。",
@@ -72,9 +73,7 @@
         "skills": ["活動企劃"],
         "serviceRate": 4.9,
         "serviceCases": 51,
-        "portfolio": [
-          {  }
-        ]
+        "portfolio": [{}]
       }
     },
     {
@@ -87,7 +86,7 @@
       },
       "worker": {
         "name": "阿土企業社",
-        "isVerify" :true,
+        "isVerify": true,
         "profilePictureUrl": "https://picsum.photos/200",
         "location": "台北市",
         "summary": "修水龍頭、水管、面盆、馬達、油漆、補土",
@@ -95,9 +94,7 @@
         "skills": ["家居修繕"],
         "serviceRate": 4.9,
         "serviceCases": 26,
-        "portfolio": [
-          {  }
-        ]
+        "portfolio": [{}]
       }
     },
     {
@@ -110,7 +107,7 @@
       },
       "worker": {
         "name": "跑腿超人",
-        "isVerify" :true,
+        "isVerify": true,
         "profilePictureUrl": "https://picsum.photos/200",
         "location": "新北市",
         "summary": "新北蘆洲三重一把罩！",
@@ -118,9 +115,7 @@
         "skills": ["家政"],
         "serviceRate": 4.9,
         "serviceCases": 199,
-        "portfolio": [
-          {  }
-        ]
+        "portfolio": [{}]
       }
     },
     {
@@ -133,7 +128,7 @@
       },
       "worker": {
         "name": "家庭教師",
-        "isVerify" :true,
+        "isVerify": true,
         "profilePictureUrl": "https://picsum.photos/200",
         "location": "新北市",
         "summary": "曾培育黑手黨首領，能讓學生抱著必死的決心讀書。",
@@ -141,12 +136,9 @@
         "skills": ["家教服務"],
         "serviceRate": 4.6,
         "serviceCases": 120,
-        "portfolio": [
-          {  }
-        ]
+        "portfolio": [{}]
       }
     }
-
   ],
   "tasks": [
     {
@@ -160,7 +152,7 @@
             "startTime": "2026-01-11T08:30:00Z",
             "endTime": "2026-01-11T20:30:00Z"
           },
-          { 
+          {
             "startTime": "2026-01-17T09:30:00Z",
             "endTime": "2026-01-18T18:30:00Z"
           }
@@ -176,7 +168,7 @@
       },
       "serviceLocations": ["台北市"],
       "serviceKeywords": ["老屋翻新", "裝修", "台北"],
-      "serviceTags": ["sosTime","shortTime","longTime"],
+      "serviceTags": ["sosTime", "shortTime", "longTime"],
       "serviceDetail": "需要專業到府居家設計裝潢，包含客廳、廚房、浴室與臥室，依需求客製。",
       "demoLink": "https://github.com/",
       "demoImgs": ["https://github.com/p1.jpg", "https://github.com/p2.jpg"]
@@ -192,7 +184,7 @@
             "startTime": "2026-04-11T08:30:00Z",
             "endTime": "2026-04-11T20:30:00Z"
           },
-          { 
+          {
             "startTime": "2026-04-17T09:30:00Z",
             "endTime": "2026-04-18T18:30:00Z"
           }
@@ -206,7 +198,7 @@
         "minPrice": 500,
         "maxPrice": 9999
       },
-      "serviceLocations": ["遠端","台北市"],
+      "serviceLocations": ["遠端", "台北市"],
       "serviceKeywords": ["網頁設計"],
       "serviceTags": ["sosTime"],
       "serviceDetail": "要用 Bootstrap，要交作業",
@@ -329,6 +321,6 @@
   "services": [],
   "reviews": [],
   "schedules": [],
-  "categories":[],
-  "subCategories":[]
+  "categories": [],
+  "subCategories": []
 }

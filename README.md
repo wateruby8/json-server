@@ -7,7 +7,7 @@ node server.js
 ## 3.（本機測試）使用 Postman 註冊帳號
 
 - 方法：POST
-- 路徑：http://localhost:3000/register
+- 路徑：http://localhost:8080/register
 - Body：raw (JSON)
 
 ```json
@@ -15,8 +15,8 @@ node server.js
   "email": "xxxxx@example.com",
   "password": "xxxxxxx"
 }
-
-post完成後，到db.json觀察，users有新增的註冊資料。
+```
+- post完成後，到db.json觀察，users有新增的註冊資料。
 
 ## 4. 後端部署tips （zeabur）
 https://zeabur.com/zh-TW/
